@@ -28,6 +28,7 @@
         <el-menu-item-group>
           <router-link to="addpost"><el-menu-item index="1-1">增添新文章</el-menu-item></router-link>
           <router-link to="editpost"><el-menu-item index="1-2">修改文章</el-menu-item></router-link>
+          <router-link to="postList"><el-menu-item index="1-3">文章列表</el-menu-item></router-link>
         </el-menu-item-group>
 
       </el-submenu>
@@ -73,9 +74,9 @@ export default {
   .el-container {
     height: 100%;
   }
-  .el-aside {
-    background-color: #545c64;
-  }
+  // .el-aside {
+  //   background-color: #545c64;
+  // }
   .el-header {
     display: flex;
     justify-content: space-between;

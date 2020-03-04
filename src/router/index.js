@@ -6,6 +6,7 @@ import Welcome from '@/pages/welcome.vue'
 import addPost from '@/pages/addPost.vue'
 import userManagement from '@/pages/userManagement.vue'
 import editPost from '@/pages/editPost.vue'
+import postList from '@/pages/postList.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -34,6 +35,11 @@ const routes = [
         name: 'editPost',
         path: 'editpost',
         component: editPost
+      },
+      {
+        name: 'postList',
+        path: 'postList',
+        component: postList
       }
 
     ]

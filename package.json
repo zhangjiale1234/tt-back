@@ -14,7 +14,10 @@
     "less": "^3.11.1",
     "less-loader": "^5.0.0",
     "vue": "^2.6.11",
-    "vue-router": "^3.1.5"
+    "vue-editor-interline": "^1.1.2",
+    "vue-router": "^3.1.5",
+    "vue2-editor": "^2.10.2",
+    "wangeditor": "^3.1.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.2.0",
