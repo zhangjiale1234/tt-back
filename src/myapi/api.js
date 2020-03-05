@@ -22,3 +22,17 @@ export const Pagination = (params) => {
     params
   })
 }
+// 获取栏目
+export const getCategoriesList = () => {
+  return axios({
+    url: '/category'
+  })
+}
+// 发布文章
+export const sendPosts = (data) => {
+  return axios({
+    url: '/post',
+    method: 'post',
+    data
+  })
+}
